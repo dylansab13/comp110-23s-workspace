@@ -1,6 +1,6 @@
 """EX01 - Chardle - A cute step toward Wordle."""
 
-__auhtor__ = "730488390"
+__author__ = "730488390"
 
 five_C = str(input("Enter a 5-character word:"))
 if len(five_C) != 5:
