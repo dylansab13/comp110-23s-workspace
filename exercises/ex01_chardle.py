@@ -22,7 +22,7 @@ if single_C == five_C[0]:
 if single_C == five_C[1]:
     print(single_C + " found at index 1")
     matching_C += 1
-    
+
 if single_C == five_C[2]:
     print(single_C + " found at index 2")
     matching_C += 1
