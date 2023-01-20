@@ -23,31 +23,31 @@ matching_C = 0
 
 if single_C == five_C[0]:
     print(single_C + " found at index 0" )
-    matching_C +=1
+    matching_C += 1
     
 
 
 if single_C == five_C[1]:
     print(single_C + " found at index 1" )
-    matching_C +=1
+    matching_C += 1
     
 
 
 if single_C == five_C[2]:
     print(single_C + " found at index 2" )
-    matching_C +=1
+    matching_C += 1
     
 
 
 if single_C == five_C[3]:
     print(single_C + " found at index 3" )
-    matching_C +=1
+    matching_C += 1
     
 
 
 if single_C == five_C[4]:
     print(single_C + " found at index 4" )
-    matching_C +=1
+    matching_C += 1
     
 
 if matching_C == 0:
@@ -56,7 +56,8 @@ if matching_C == 0:
 if matching_C == 1:
     print(str(matching_C) + " instance of " + single_C + " found in " + five_C)
 
-else: print(str(matching_C) + " instances of " + single_C + " found in" + five_C)
+else: 
+    print(str(matching_C) + " instances of " + single_C + " found in" + five_C)
 
 
 
