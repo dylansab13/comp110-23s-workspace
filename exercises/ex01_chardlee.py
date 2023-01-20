@@ -12,6 +12,7 @@ if len(single_C) != 1:
     print("Error: Character must be a single character.")
     exit()
 
+
 print("Searching for " + single_C + " in " + five_C)
 matching_C = 0
 
