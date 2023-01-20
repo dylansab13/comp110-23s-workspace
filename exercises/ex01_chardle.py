@@ -19,8 +19,6 @@ print("Searching for " + single_C + " in " +  five_C)
 matching_C = 0
 
 
-
-
 if single_C == five_C[0]:
     print(single_C + " found at index 0" )
     matching_C += 1
