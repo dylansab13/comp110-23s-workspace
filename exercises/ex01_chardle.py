@@ -36,10 +36,10 @@ if single_C == five_C[4]:
     matching_C += 1
     
 if matching_C == 0:
-    print("No instances of " + single_C + " found in" + five_C)
+    print("No instances of " + single_C + " found in " + five_C)
 
 if matching_C == 1:
     print(str(matching_C) + " instance of " + single_C + " found in " + five_C)
 
 else: 
-    print(str(matching_C) + " instances of " + single_C + " found in" + five_C)
+    print(str(matching_C) + " instances of " + single_C + " found in " + five_C)
