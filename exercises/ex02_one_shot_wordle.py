@@ -48,3 +48,4 @@ while word_indx < len(secret_word):
 # Print what is correct and incorrect 
 print(the_emoj)
 
+
