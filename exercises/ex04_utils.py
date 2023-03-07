@@ -1,9 +1,10 @@
-"""EX04 - Utils"""
+"""EX04 - Utils."""
 
 __author__ = "730488390"
 
+
 def all(int_list: list[int], all_int: int) -> bool:
-    "If all numbers in list are same, return True"
+    """If all numbers in list are same, return True."""
     num_idx: int = 0
     if len(int_list) == 0:
         return False
@@ -14,8 +15,9 @@ def all(int_list: list[int], all_int: int) -> bool:
         num_idx += 1
     return True
 
+
 def max(list_ints: list[int]) -> int:
-    "Figuring out the max in the list"
+    """Figuring out the max in the list."""
     if len(list_ints) == 0:
         raise ValueError(" max() arg is an empty List") 
     
@@ -30,7 +32,7 @@ def max(list_ints: list[int]) -> int:
 
 
 def is_equal(first_list: list[int], sec_list: list[int]) -> bool:
-    "Test to see if every element at every index matches"
+    """Test to see if every element at every index matches."""
     if len(first_list) == len(sec_list):
         test_idx: int = 0
         while test_idx < len(first_list):
